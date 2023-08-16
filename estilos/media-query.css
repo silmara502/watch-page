@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen  and (max-width: 667px) {
+    body {
+        align-items: center;
+    }
+    nav{
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        color: black;
+    }
+    nav a:hover{
+        background-color: rgb(206, 202, 202);
+    }
+    main {
+        grid-template-columns: 1fr;
+      
+    }
+    .introducao {
+        text-align: center;
+      
+    }
+    .introducao h2, .subtitulo, .vantagem{
+        margin: auto;
+    }
+}
