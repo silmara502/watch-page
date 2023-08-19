@@ -3,6 +3,7 @@
 @media screen  and (max-width: 667px) {
     body {
         align-items: center;
+        overflow-x: hidden;
     }
     header nav{
         background-color: white;
@@ -21,9 +22,11 @@
     }
     .introducao {
         text-align: center;
+        padding: 20px;
       
     }
     .introducao h2, .subtitulo, .vantagem{
-        margin: auto;
+        margin: auto ;
+        
     }
 }
