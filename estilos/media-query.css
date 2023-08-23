@@ -5,11 +5,14 @@
         align-items: center;
         overflow-x: hidden;
     }
+
     header nav{
         background-color: white;
         flex-direction: column;
         align-items: center;
+       
     }
+
     nav a {
         color: black;
     }
@@ -29,5 +32,9 @@
     .introducao h2, .subtitulo, .vantagem{
         margin: auto ;
         
+    }
+    a.botao{
+        padding: 10px;
+
     }
 }
