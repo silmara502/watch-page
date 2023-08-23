@@ -82,13 +82,13 @@ div.vantagem{
     padding: 40px;
 
 }
-.vantagens-item{
+.vantagem-itens{
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 10px 20px;
     padding: 20px;
 }
-.vantagens-item p{
+.vantagem-itens p{
     grid-column: 2;
 }
 footer{

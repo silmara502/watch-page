@@ -21,7 +21,8 @@
       
     }
     .introducao {
-        text-align: center;
+        text-align: left;
+        justify-content: start;
         padding: 20px;
       
     }
